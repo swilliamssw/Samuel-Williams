@@ -1,0 +1,10 @@
+* {
+    height: auto;
+    max-width: 100%;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
