@@ -4,7 +4,7 @@
     --main-fonts-color: #686A6C;
     --main-decor-color: teal;
     --main-header-background: #686A6C;
-    --main-font-family: poppins;
+    --main-font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -31,8 +31,10 @@ body {
     position: relative;
 }
 
-.title {
-    font-family: poppins;
+.title h1 {
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .nav-bar {
