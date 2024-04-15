@@ -4,7 +4,7 @@
     --main-fonts-color: #686A6C;
     --main-decor-color: teal;
     --main-header-background: #686A6C;
-    --main-font-family: 'Poppins', sans-serif;
+    --main-font-family: poppins;
 }
 
 * {
@@ -32,5 +32,18 @@ body {
 }
 
 .title {
-    font-family: var(--main-font-family);
+    font-family: poppins;
+}
+
+.nav-bar {
+    display: inline-block;
+    position: relative;
+    align-items: left;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    font-family: poppins;
 }
