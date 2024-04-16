@@ -19,16 +19,21 @@
     font-family: var(--main-font-family);
 }
 
+html,
 body {
-    background-image: url("assets/images/black\ sand.jpeg");
+    background-image: url();
     background-size: cover;
     background-position: center top;
 }
+
+
+/* Navigation Bar and Header Section */
 
 .header {
     justify-content: space-between;
     display: flex;
     position: relative;
+    top: 20px;
 }
 
 .title h1 {
@@ -36,16 +41,14 @@ body {
     font-style: normal;
 }
 
-.nav-bar {
-    display: flex;
+li {
+    display: inline;
     justify-content: space-between;
+    margin-left: 15px;
+    padding-right: 15px;
 }
 
 .navlink {
-    position: relative;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
     cursor: pointer;
 }
