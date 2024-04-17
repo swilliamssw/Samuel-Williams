@@ -43,6 +43,7 @@ body {
     padding-left: 100px;
     background-color: transparent;
     color: teal;
+    text-decoration: none;
 }
 
 li {
