@@ -20,7 +20,7 @@
         
         html,
         body {
-            background-color: slategray;
+            background-image: url(assets/images/stars-background.jpeg);
             background-size: cover;
             background-position: center top;
         }
