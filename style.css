@@ -2,7 +2,7 @@
          :root {
             --main-background: #686A6C;
             --main-fonts-color: #686A6C;
-            --main-decor-color: teal;
+            --main-decor-color: #01F9C6;
             --main-header-background: #686A6C;
             --main-font-family: 'Poppins', sans-serif;
         }
@@ -20,8 +20,8 @@
         
         html,
         body {
-            background-image: url(assets/images/stars-background.jpeg);
-            background-size: cover;
+            background-color: black;
+            background-size: auto;
             background-position: center top;
         }
         /* Navigation Bar and Header Section */
@@ -39,7 +39,7 @@
             font-weight: 700;
             font-style: normal;
             padding-left: 100px;
-            color: teal;
+            color: var(--main-decor-color);
         }
         
         .title a {
@@ -85,7 +85,7 @@
         
         .nav-link {
             text-decoration: none;
-            color: teal;
+            color: var(--main-decor-color);
             font-weight: 700;
         }
         
@@ -93,4 +93,24 @@
             list-style: none;
             cursor: pointer;
             font-size: large;
+        }
+        /* Welcome Section */
+        
+        .welcome-section {
+            font-family: var(--main-font-family);
+            color: var(--main-fonts-color);
+            font-weight: 300;
+        }
+        
+        .intro-text h3 {
+            color: var(--main-decor-color);
+            margin-left: 42%;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        
+        .welcome-image img {
+            border-radius: 25%;
+            border-color: var(--main-decor-color);
+            width: 30%;
         }
